@@ -1,5 +1,6 @@
 const req = require('./modules/readInput');
 
+
 let skinArray = [];
 
 const main = async() =>
@@ -8,6 +9,8 @@ const main = async() =>
         skinArray = data;
     });
     console.log(skinArray[0]);
+    console.log(skinArray[1]);
+    
 }
 
 main();
